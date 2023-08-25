@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="password_strength_checker">Password strength Checker</string>
+    <string name="generate_strong_password">Generate Strong Password</string>
+    <string name="check_password_strength">Check Password Strength</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/check_password_strength"
+        android:icon="@drawable/padlock"
+        android:id="@+id/PSC"/>
+    <item
+
+        android:title="@string/generate_strong_password"
+        android:id="@+id/GSP"
+        android:icon="@drawable/create"/>
+</menu>
