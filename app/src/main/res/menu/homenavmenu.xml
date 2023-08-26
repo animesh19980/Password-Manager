@@ -4,10 +4,9 @@
     <item
         android:title="@string/check_password_strength"
         android:icon="@drawable/padlock"
-        android:id="@+id/PSC"/>
+        android:id="@+id/pass_Fragment"/>
     <item
-
         android:title="@string/generate_strong_password"
-        android:id="@+id/GSP"
+        android:id="@+id/gene_Fragment"
         android:icon="@drawable/create"/>
 </menu>
