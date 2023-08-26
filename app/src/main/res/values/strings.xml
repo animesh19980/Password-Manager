@@ -5,4 +5,77 @@
     <string name="check_password_strength">Check Password Strength</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint_generated_password">Hint Generated Password</string>
+    <string name="generate_password">Generate Password</string>
+    <string name="length">Length</string>
+    <string name="generate_16">16</string>
+    <string name="generate_12">12</string>
+    <string name="generate_8">8</string>
+    <string name="generate_6">6</string>
+
+    <style name="NoTitleBar" parent="Theme.AppCompat.NoActionBar">
+        </style>
+        <style name="Dialog" parent="Theme.AppCompat.Dialog">
+            <item name="windowActionBar">true</item>
+            <item name="windowNoTitle">false</item>
+        </style>
+        <style name="GroupTextSmall" parent="Theme.AppCompat.Dialog">
+            <item name="android:textColor">@color/group</item>
+            <item name="android:textSize">15sp</item>
+        </style>
+        <style name="GroupText" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:textColor">@color/group</item>
+            <item name="android:textSize">20sp</item>
+        </style>
+        <style name="GroupTextLarge" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:textColor">@color/group</item>
+            <item name="android:textSize">28sp</item>
+        </style>
+        <style name="ElementTextSmall">
+            <item name="android:textSize">15sp</item>
+        </style>
+        <style name="ElementText">
+            <item name="android:textSize">20sp</item>
+        </style>
+        <style name="ElementTextLarge">
+            <item name="android:textSize">28sp</item>
+        </style>
+        <style name="GroupLabel">
+            <item name="android:textSize">20sp</item>
+        </style>
+        <style name="Small">
+            <item name="android:textSize">12sp</item>
+        </style>
+        <style name="WhiteOnBlack">
+            <!-- <item name="android:background">#666666</item> -->
+            <item
+                name="android:textColor">@android:color/primary_text_dark</item>
+            <item name="android:textSize">20sp</item>
+        </style>
+        <style name="WhiteOnBlackSmall" parent="WhiteOnBlack">
+            <item name="android:textSize">12sp</item>
+        </style>
+        <style name="WhiteOnDarkSmall" parent="WhiteOnBlack">
+            <item name="android:textSize">12sp</item>
+            <!-- <item name="android:background">#222222</item> -->
+        </style>
+        <style name="DarkOnBlackSmall" parent="WhiteOnBlackSmall">
+            <item name="android:textColor">@android:color/secondary_text_dark</item>
+        </style>
+        <style name="ElementTextTitle" parent="WhiteOnBlack">
+            <item name="android:textColor">@color/group</item>
+        </style>
+        <style name="EntryItem">
+            <item name="android:padding">5sp</item>
+        </style>
+        <style name="DividerEntry">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">1dp</item>
+        </style>
+        <style name="Divider" parent="DividerEntry">
+            <item name="android:background">?android:attr/listDivider</item>
+        </style>
+
 </resources>
