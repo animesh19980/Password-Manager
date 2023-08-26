@@ -21,11 +21,12 @@ import android.widget.Toast;
 
 public class Check_Fragment extends Fragment {
     private EditText etPassword;
-    private TextView tvPasswordError;
+    private TextView tvPasswordError, checkdone, PasswordError;
     private CardView btnRegister;
     private CardView frameOne, frameTwo, frameThree, frameFour;
     private boolean isAtLeast8 = false, hasUppercase = false, hasNumber = false, hasSymbol = false, isRegistrationClickable = false;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,7 +34,9 @@ public class Check_Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_check_, container, false);
 
         tvPasswordError = view.findViewById(R.id.tvPasswordError);
+        PasswordError = view.findViewById(R.id.PasswordError);
         etPassword = view.findViewById(R.id.etPassword);
+        checkdone = view.findViewById(R.id.checkdone);
         btnRegister = view.findViewById(R.id.btnRegister);
         frameOne = view.findViewById(R.id.frameOne);
         frameTwo = view.findViewById(R.id.frameTwo);
@@ -50,6 +53,10 @@ public class Check_Fragment extends Fragment {
 
                 if (password.length() == 0) {
                     tvPasswordError.setVisibility(View.VISIBLE);
+                } if (password.equals("098#@Black")) {
+                    PasswordError.setVisibility(View.VISIBLE);
+                } else {
+                    checkdone.setVisibility(View.VISIBLE);
                 }
             }
         });

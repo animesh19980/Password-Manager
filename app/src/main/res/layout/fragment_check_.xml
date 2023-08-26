@@ -57,6 +57,26 @@
                 android:text="Please enter password"
                 android:textColor="@android:color/holo_red_dark"
                 android:visibility="gone" />
+            <TextView
+                android:id="@+id/PasswordError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center|start"
+                android:text="Entered Password is weak. Please Do no use this."
+                android:textColor="@android:color/holo_red_dark"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/checkdone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center|start"
+                android:text="Entered Password is Strong"
+                android:textColor="@android:color/holo_green_light"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="match_parent"
